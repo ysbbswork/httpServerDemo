@@ -57,6 +57,8 @@ func AIcore(input string) (output string) {
 	output = strings.Replace(output,"？","!",-1)
 	output = strings.Replace(output,"我","你",-1)
 	output = strings.Replace(output,"么","",-1)
+	output = strings.Replace(output,"是不是","是",-1)
+	output = strings.Replace(output,"你是谁","我是人工智障（AI：a idiot)",-1)
 	return
 }
 
